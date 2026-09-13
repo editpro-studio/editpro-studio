@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EditPro Studio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#0b0b10;color:#fff;line-height:1.6}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 7%;position:sticky;top:0;background:#0b0b10ee;backdrop-filter:blur(10px);z-index:5}
+.logo{font-size:25px;font-weight:800}.logo span{color:#8b5cf6}
+nav a{color:#ddd;text-decoration:none;margin-left:22px}
+.hero{padding:100px 7% 80px;text-align:center;background:radial-gradient(circle at 50% 0,#3b1b68 0,#0b0b10 55%)}
+.badge{display:inline-block;padding:8px 16px;border:1px solid #6d4bb5;border-radius:30px;color:#c4a8ff;margin-bottom:22px}
+h1{font-size:clamp(42px,8vw,78px);line-height:1.05;margin-bottom:22px}
+h1 span{color:#9b6cff}
+.hero p{max-width:650px;margin:auto;color:#b9b9c5;font-size:18px}
+.btn{display:inline-block;margin-top:30px;padding:14px 25px;border-radius:10px;background:#8b5cf6;color:#fff;text-decoration:none;font-weight:700}
+section{padding:70px 7%}.title{text-align:center;margin-bottom:40px}.title h2{font-size:38px}.title p{color:#aaa}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.card{background:#15151d;border:1px solid #262631;border-radius:16px;padding:25px;transition:.2s}
+.card:hover{transform:translateY(-5px);border-color:#7650c8}
+.icon{font-size:32px;margin-bottom:12px}.card h3{margin-bottom:8px}.card p{color:#aaa;font-size:14px}
+.prices .card{text-align:center}.price{font-size:30px;font-weight:800;margin:12px 0}.price small{font-size:13px;color:#aaa}
+.contact{text-align:center;background:#111119}.contact p{color:#aaa;margin-top:8px}
+footer{text-align:center;padding:25px;color:#777;border-top:1px solid #222}
+@media(max-width:650px){nav a{display:none}.hero{padding-top:70px}section{padding:55px 5%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Edit<span>Pro</span> Studio</div>
+  <div><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <div class="badge">✨ Creative Editing Studio</div>
+  <h1>Turn Your Ideas Into <span>Stunning Visuals.</span></h1>
+  <p>Professional photo, video, reels, thumbnails, posters and social-media editing — all in one place.</p>
+  <a class="btn" href="https://wa.me/918279489224?text=Hi%20EditPro%20Studio%2C%20I%20want%20to%20discuss%20an%20editing%20project.">WhatsApp Us →</a>
+</header>
+
+<section id="services">
+  <div class="title"><h2>Our Services</h2><p>Everything you need to make your content stand out.</p></div>
+  <div class="grid">
+    <div class="card"><div class="icon">📸</div><h3>Photo Editing</h3><p>Creative edits, color correction and professional enhancements.</p></div>
+    <div class="card"><div class="icon">🎬</div><h3>Video Editing</h3><p>Clean cuts, transitions, music and polished storytelling.</p></div>
+    <div class="card"><div class="icon">📱</div><h3>Reels & Shorts</h3><p>Fast-paced social videos designed to grab attention.</p></div>
+    <div class="card"><div class="icon">🖼️</div><h3>Thumbnail Design</h3><p>Eye-catching thumbnails for YouTube and social platforms.</p></div>
+    <div class="card"><div class="icon">🎨</div><h3>Poster & Banner</h3><p>Modern promotional designs for brands and events.</p></div>
+    <div class="card"><div class="icon">✨</div><h3>Photo Retouching</h3><p>Natural-looking cleanup and detailed finishing.</p></div>
+    <div class="card"><div class="icon">💍</div><h3>Wedding & Events</h3><p>Memorable photo and video edits for special occasions.</p></div>
+    <div class="card"><div class="icon">📢</div><h3>Social Creatives</h3><p>Posts and visual content made for social media.</p></div>
+  </div>
+</section>
+
+<section id="pricing" class="prices">
+  <div class="title"><h2>Simple Pricing</h2><p>Starting prices — final quote depends on the project.</p></div>
+  <div class="grid">
+    <div class="card"><h3>Photo Edit</h3><div class="price">₹50+</div><p>Per photo</p></div>
+    <div class="card"><h3>Reel Edit</h3><div class="price">₹100+</div><p>Per reel</p></div>
+    <div class="card"><h3>Video Edit</h3><div class="price">₹200+</div><p>Per project</p></div>
+    <div class="card"><h3>Thumbnail</h3><div class="price">₹50+</div><p>Per thumbnail</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="title"><h2>Let's Create Something Great</h2><p>Send your project details and we'll discuss the best editing option.</p>
+  <a class="btn" href="https://wa.me/918279489224?text=Hi%20EditPro%20Studio%2C%20I%20want%20to%20book%20an%20editing%20service.">WhatsApp: 8279489224</a></div>
+</section>
+
+<footer>© 2026 EditPro Studio • Creative Editing Services</footer>
+</body>
+</html>
